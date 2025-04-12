@@ -7,7 +7,7 @@ document.getElementById('predictionForm').addEventListener('submit', async funct
     
     // Send data to the backend
     try {
-        const response = await fetch('http://localhost:5000/predict', {
+        const response = await fetch('https://power-prediction-6hh2.onrender.com', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
